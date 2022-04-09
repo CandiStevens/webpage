@@ -1,0 +1,155 @@
+html {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    color: #f9faf8;
+    padding: 2px 200px;
+    align-items: center;
+
+}
+
+.header-links {
+    display: flex;
+    gap: 12px;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+.sec-one {
+    display: flex;
+    color: #f9faf8;
+    background-color: #1f2937;
+    justify-content: space-between;
+    padding: 50px 200px;
+    gap: 200px;
+}
+
+.welcome {
+    display: flex;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.welcome-text {
+    display: flex;
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 12px 0;
+}
+
+.welcome-button {
+    display: flex;
+    background-color: #3882f6;
+    border-radius: 8px;
+    padding: 5px 25px;
+    color: #f9faf8;
+    font-size: 18px;
+    border: 2px solid transparent;
+}
+
+.logo {
+    width: 500px;
+    height: auto;
+    background-color: #f9faf8;
+    padding: 16px;
+    border-radius: 0;
+}
+
+.sec-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+    padding: 75px 0;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    border: 2px solid #1f2937;
+    border-radius: 10px;
+    justify-content: center;
+    align-self: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    font-size: 18px;
+    text-wrap: wrap;
+    gap: 50px;
+    padding: 20px 300px;
+    font-weight: 300;
+}
+
+.sec-three {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    padding: 100px 300px;
+}
+
+.author {
+    display: flex;
+    align-self: flex-end;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.sec-four {
+    display: flex;
+    background-color: #3882f6;
+    padding: 50px 100px;
+    margin: 50px 200px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    color: #f9faf8;
+
+}
+
+.action {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.four-text {
+    font-size: 18px;
+}
+
+.su-four {
+    font-size: 18px;
+    color: #f9faf8;
+    background-color: transparent;
+    border: 2px solid #f9faf8;
+    border-radius: 5px;
+    padding: 5px 24px;
+}
+
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0;
+}
